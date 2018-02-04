@@ -18,7 +18,7 @@ Rules for writing a slow-tuto.
 - The best slow tuto might be the ones you have built while learning yourself a new techo.
 
 # slow-tuto
-Un ensemble de tutoriel que des développeur peuvent suivre en utilisant le pattern du slow kata.
+Un ensemble de tutoriel que des développeurs peuvent suivre en utilisant le pattern du slow kata.
 
 Règles pour suivre un slow-tuto.
 - Soyez sûr que vous connaissez les prerequis indiqué dans l'en-tête
