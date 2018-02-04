@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/env python2
 # Prerequisites:
 # - knowing Python basics,
 # - using Python 2.7 (>=.14)
