@@ -12,7 +12,11 @@ pd.__version__
 np.__version__
 sns.__version__
 
-df = pd.read_csv('./pandas-tuto/tabs-spaces-resources/survey_results_public.csv')
+# environment trick: depending on where you launched the console, you may need to change directory
+import os
+os.chdir('pandas-tuto')
+
+df = pd.read_csv('tabs-spaces-resources/survey_results_public.csv')
 
 # Learning how dataframes looks like
 df
@@ -32,7 +36,9 @@ df[df.Salary > 20000].count()
 df[df.Salary > 20000].Respondent.count()
 
 max(df.Salary)
+
 df.Salary.notna()
+
 max(df[df.Salary.notna()].Salary)
 
 df = df[df.Salary.notna()]
@@ -51,8 +57,8 @@ df.pivot_table(index='TabsSpaces', values='Salary').\
 
 # Learning how number of years of coding as a job data is stored
 df.YearsCodedJob.unique()
-df.YearsProgram.apply(lambda s: (np.NaN if type(s) != str else 0 if s == "Less than a year" else int(s.split(" ")[0]))).unique()
 
+df.YearsProgram.apply(lambda s: (np.NaN if type(s) != str else 0 if s == "Less than a year" else int(s.split(" ")[0]))).unique()
 
 df['YearsCodedJobI'] = df.YearsCodedJob.apply(lambda s: (0 if s == "Less than a year" else np.NaN if type(s) != str else int(s.split(" ")[0])))
 
@@ -74,6 +80,7 @@ plt.show()
 # -- learning distribution
 sns.distplot(df.Salary)
 plt.show()
+
 sns.distplot(df.Salary, hist=False)
 plt.show()
 

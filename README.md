@@ -9,7 +9,8 @@ Rules for following a slow-tuto.
 - Learn from the differences.
 - Repeat with the following line, or the current line if you feel it.
 
-Exception : a line preceded with a comment starting with "Learning ..." should be executed without guessing.
+Exceptions: a block preceded with a comment starting with "Learning ..." may be executed without guessing.
+
 
 Rules for writing a slow-tuto.
 - Write in the header what prerequisite a trainee should have before starting the tuto.
@@ -28,7 +29,7 @@ Règles pour suivre un slow-tuto.
 - Verbalisez l'apprentissage acquis, qu'il y ait des différences par rapport à ce que vous imaginiez ou non.
 - Recommencez avec la ligne suivante, ou la ligne courante si vous le désirez.
 
-Exception : si un ligne est précédée par un commentaire de type "Learning ...", elle peut être exécutée sans essayer de deviner ce qui va se passer.
+Exception : si un bloc est précédé par un commentaire de type "Learning ...", il peut être exécuté sans essayer de deviner ce qui va se passer.
 
 Règles pour écrire un slow-tuto.
 - Notez dans l'en-tête les prerequis nécessaires à cet apprentissage.
