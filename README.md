@@ -21,17 +21,17 @@ Rules for writing a slow-tuto.
 Un ensemble de tutoriel que des développeurs peuvent suivre en utilisant le pattern du slow kata.
 
 Règles pour suivre un slow-tuto.
-- Soyez sûr que vous connaissez les prerequis indiqué dans l'en-tête
-- Lisez la première ligne de code sans l'exécuter
+- Soyez sûr que vous connaissez les prerequis indiqués dans l'en-tête.
+- Lisez la première ligne de code sans l'exécuter.
 - Essayez de devinez ce qui va se produire. Idéalement, notez-le.
 - Exécuter la ligne de code.
-- Verbalisez l'apprentissage acquis, qu'il y ait des différence par rapport à ce que vous imaginiez ou non.
-- Recommencez avec la ligne suivante, ou la ligne courant si vous le désirez.
+- Verbalisez l'apprentissage acquis, qu'il y ait des différences par rapport à ce que vous imaginiez ou non.
+- Recommencez avec la ligne suivante, ou la ligne courante si vous le désirez.
 
-Exception : si un ligne est précédée par un commentaire de type "Learning ...", elle peut être exéctutée sans essayer de deviner ce qui va se passer.
+Exception : si un ligne est précédée par un commentaire de type "Learning ...", elle peut être exécutée sans essayer de deviner ce qui va se passer.
 
 Règles pour écrire un slow-tuto.
-- Notez dans l'en-tête les prerequis nécessaire à cet apprentissage.
-- Un tuto doit être copier-collable dans un environnement dit standard et s'exécuter
-- A part des commentaires "Learning...", il ne devrait y avoir aucun commentaire à votre code. Si vous sentez que des explications sont nécesaires, préférez séparer en plusieurs ligne de code offrant des plus petits pas d'apprentissage.
+- Notez dans l'en-tête les prerequis nécessaires à cet apprentissage.
+- Un tuto doit être copier-collable dans un environnement standard et s'exécuter.
+- A part des commentaires "Learning...", il ne devrait y avoir aucun commentaire à votre code. Si vous sentez que des explications sont nécesaires, préférez séparer en plusieurs lignes de code offrant des plus petits pas d'apprentissage.
 - Les meilleurs slow-tuto sont peut-être ceux que vous avez construits quand vous avez vous-même appris une nouvelle technologie.
