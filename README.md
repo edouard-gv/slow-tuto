@@ -2,20 +2,20 @@
 A list of tutorials crafters should follow using the slow kata pattern.
 
 Rules for following a slow-tuto.
-- Be sure you know the prerequistes givien in the header.
-- Read the first line without exectuting it.
+- Be sure you know the prerequisites given in the header.
+- Read the first line without executing it.
 - Try to guess what will happen. Write it ideally.
 - Run the line.
 - Learn from the differences.
 - Repeat with the following line, or the current line if you feel it.
 
-Exception : a line preceeded with a comment starting with "Learning ..." should be executed without guessing.
+Exception : a line preceded with a comment starting with "Learning ..." should be executed without guessing.
 
 Rules for writing a slow-tuto.
 - Write in the header what prerequisite a trainee should have before starting the tuto.
 - Each file can be copy-pasted in a classical environment for the language and run.
 - Except for "Learning ...", there should be no comments explaining what the code does. If explanation has to be given, prefere giving pieces of code with smaller learning steps, 
-- The best slow tuto might be the ones you have built while learning yourself a new techo.
+- The best slow tuto might be the ones you have built while learning yourself a new techno.
 
 # slow-tuto
 Un ensemble de tutoriel que des développeurs peuvent suivre en utilisant le pattern du slow kata.
