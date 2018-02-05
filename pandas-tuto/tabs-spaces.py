@@ -14,7 +14,7 @@ sns.__version__
 
 # environment trick: depending on where you launched the console, you may need to change directory
 import os
-os.chdir('pandas-tuto')
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
 df = pd.read_csv('tabs-spaces-resources/survey_results_public.csv')
 
